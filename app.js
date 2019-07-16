@@ -12,6 +12,10 @@ router.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
     //__dirname : It will resolve to your project folder.
 });
+router.get('/p01', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p01.html'));
+    //__dirname : It will resolve to your project folder.
+});
 
 app.use('/', router);
 
