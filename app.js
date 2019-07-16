@@ -22,8 +22,28 @@ router.get('/byeon/02', function (req, res) {
 router.get('/byeon/03', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/b03.html'));
 });
+router.get('/byeon/04', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b04.html'));
+});
+router.get('/byeon/05', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b05.html'));
+});
+router.get('/byeon/06', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b06.html'));
+});
+router.get('/byeon/07', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b07.html'));
+});
+router.get('/byeon/08', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b08.html'));
+});
+router.get('/byeon/09', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b09.html'));
+});
 
-
+router.get('/park/01', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p01.html'));
+});
 router.get('/park/02', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/p02.html'));
 });
