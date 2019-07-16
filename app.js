@@ -13,6 +13,9 @@ router.get('/', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
+router.get('/byeon', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/b00.html'));
+});
 router.get('/byeon/01', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/b01.html'));
 });
@@ -41,6 +44,10 @@ router.get('/byeon/09', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/b09.html'));
 });
 
+
+router.get('/park', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p00.html'));
+});
 router.get('/park/01', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/p01.html'));
 });
